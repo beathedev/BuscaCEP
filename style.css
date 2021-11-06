@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #1e88e5;
+    background: #8c7ae6;
     height: 100px;
     padding: 25px;
     color: #fff;
@@ -52,7 +52,7 @@ input {
 }
 
 input:focus {
-    border-bottom: 2px solid #3951b2;
+    border-bottom: 2px solid #8c7ae6;
     transition: 0.8s;
 }
 
@@ -64,24 +64,16 @@ input:not(:placeholder-shown) {
 button {
     background: #fff;
     outline: none;
-    border: 1px solid #1e88e5;
+    border: 1px solid #8c7ae6;
     padding: 10px;
 }
 
 button:hover {
-    background: #1e88e5;
+    background: #8c7ae6;
     transition: 0.2s ease-in;
     color: #fff;
 }
 
-.checkout {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #1e88e5;
-    height: 150px;
-    padding: 25px;
-    margin-top: 5px;
-    color: #fff;
-    border-radius: 15px 5px;
+a {
+    color: #8c7ae6;
 }
